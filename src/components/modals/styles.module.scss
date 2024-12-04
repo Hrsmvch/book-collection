@@ -1,0 +1,36 @@
+.modal_content{
+  width: 500px;
+  h2{
+    font-size: 24px;
+    font-weight: 500;
+    margin-bottom: 20px;
+  }
+  form{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 100%;
+
+    input, select{
+      padding: 10px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+      font-size: 16px;
+      outline: none;
+    }
+
+    button{
+      padding: 10px 20px;
+      border: none;
+      border-radius: 5px;
+      background: #333;
+      color: #fff;
+      font-size: 16px;
+      cursor: pointer;
+      transition: all 0.3s ease;
+      &:hover{
+        background: #555;
+      }
+    }
+  }
+}

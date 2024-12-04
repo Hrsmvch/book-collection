@@ -1,0 +1,21 @@
+[
+  {
+    "id": "1",
+    "title": "1984 new i",
+    "author": "George Orwell",
+    "genre": "Dystopian",
+    "status": "to-read",
+    "language": "Ukrainian",
+    "createdAt": "2023-03-01T00:00:00.000Z",
+    "rating": 5
+  },
+  {
+    "id": "2",
+    "title": "The Alchemist",
+    "author": "Paulo Coelho",
+    "genre": "Fiction",
+    "language": "English",
+    "createdAt": "2023-03-01T00:00:00.000Z",
+    "status": "completed"
+  }
+]

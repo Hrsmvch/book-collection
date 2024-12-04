@@ -1,0 +1,25 @@
+.filter{
+  display: flex;
+  align-items: center;
+  background-color: #eee;
+  width: fit-content;
+  padding: 4px;
+  gap: 10px;
+  border-radius: 10px;
+
+  .filter_item{
+    padding: 8px 14px;
+    cursor: pointer;
+    border-radius: 10px;
+    font-weight: 500;
+    font-size: 16px;
+    font-family: monospace;
+    transition: all 0.3s linear;
+    &.active{
+      background-color: #fff;
+      color: #333;
+      font-weight: 600;
+      transition: all 0.3s linear;
+    }
+  }
+}
